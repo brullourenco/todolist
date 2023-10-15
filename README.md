@@ -19,7 +19,7 @@ Nessa aula implementamos melhorias e funcionalidades e enriquecemos a interativi
 # Recursos da API
 - Criação de Tarefas: Crie uma nova tarefa especificando a descrição, título, prioridade, data de início e término. Você deve fornecer o ID do usuário no parâmetro ```idUser```:
 
-```java
+```
 POST http://localhost:8080/tasks/
 {
     "description": "Tarefa para gravar aula de Tasks do curso de Spring Boot",
@@ -31,7 +31,7 @@ POST http://localhost:8080/tasks/
 }
 ```
 - Criação de Usuários: Crie um novo usuário fornecendo seu nome, nome de usuário e senha:
-```java
+```
 POST http://localhost:8080/users/
 {
     "name": "Bruna Lourenço",
