@@ -17,7 +17,7 @@ Nessa aula implementamos melhorias e funcionalidades e enriquecemos a interativi
 
 
 # Recursos da API
-- Criação de Tarefas: Crie uma nova tarefa especificando a descrição, título, prioridade, data de início e término. Você deve fornecer o ID do usuário no parâmetro idUser:
+- Criação de Tarefas: Crie uma nova tarefa especificando a descrição, título, prioridade, data de início e término. Você deve fornecer o ID do usuário no parâmetro ```idUser```:
 
 ```java
 POST http://localhost:8080/tasks/
@@ -80,7 +80,7 @@ protected void doFilterInternal(HttpServletRequest request, HttpServletResponse 
     }
 }
 ```
-Este filtro de autenticação verifica se as solicitações para as rotas que começam com /tasks/ estão autenticadas. Os detalhes da autenticação do usuário e a validação da senha são tratados com segurança.
+Este filtro de autenticação verifica se as solicitações para as rotas que começam com ```/tasks/``` estão autenticadas. Os detalhes da autenticação do usuário e a validação da senha são tratados com segurança.
 
 ## Utilização do Spring Boot DevTools
 Esta API utiliza o Spring Boot DevTools, uma ferramenta útil para auxiliar no desenvolvimento de aplicativos Spring Boot. Ele oferece recursos que facilitam o processo de desenvolvimento, incluindo a reinicialização automática do serviço toda vez que a aplicação sofre uma alteração no código-fonte.
@@ -90,7 +90,7 @@ Você pode publicar esta API gratuitamente utilizando o serviço Render. Siga os
 
 1. Acesse o site oficial [Render](https://render.com/).
 2. Faça o cadastro (você pode utilizar sua conta do GitHub para facilitar o processo).
-3. Crie um arquivo Dockerfile na raiz do seu projeto com as instruções necessárias para a publicação no Render.
+3. Crie um arquivo ```Dockerfile``` na raiz do seu projeto com as instruções necessárias para a publicação no Render.
 4. Siga as instruções do Render para implantar sua aplicação e configure os detalhes conforme necessário.
 
 
